@@ -1444,11 +1444,11 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 0.1rem 0;
+				padding: 1.5rem 0;
 			}
 
 				#header .content .inner {
-					padding: 0.1rem 0;
+					padding: 2.5rem 0;
 				}
 
 				#header nav ul {
@@ -1456,12 +1456,12 @@ input, select, textarea {
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
-					min-width: 1px;
-					max-width: 10%;
+					min-width: 10rem;
+					max-width: 100%;
 				}
 
 					#header nav ul li {
-						border-left: 1;
+						border-left: 0;
 						border-top: solid 1px #ffffff;
 					}
 
@@ -1470,11 +1470,10 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							height: 1rem;
-							line-height: 1rem;
+							height: 3rem;
+							line-height: 3rem;
 							min-width: 0;
-                            width: 100%;
-                            font-size: 50%;
+							width: 100%;
 						}
 
 				#header nav.use-middle:after {
