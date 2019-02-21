@@ -1470,8 +1470,8 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							height: 1rem;
-							line-height: 2rem;
+							height: 0rem;
+							line-height: 0rem;
 							min-width: 0;
 							width: 100%;
 						}
