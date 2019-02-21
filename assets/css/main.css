@@ -1473,7 +1473,7 @@ input, select, textarea {
 							height: 0rem;
 							line-height: 0rem;
 							min-width: 0;
-							width: 100%;
+							width: 10%;
 						}
 
 				#header nav.use-middle:after {
