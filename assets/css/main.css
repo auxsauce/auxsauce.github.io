@@ -695,7 +695,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 0.5rem 0;
+				margin: 1.5rem 0;
 			}
 
 		}
@@ -842,7 +842,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					padding: 0 0 0 0;
+					padding: 1rem 0 0 0;
 					text-align: center;
 					width: 100%;
 				}
@@ -1207,7 +1207,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				padding: 0;
+				padding: 1rem;
 			}
 
 		}
@@ -1444,11 +1444,11 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 0.1rem 0;
+				padding: 1.5rem 0;
 			}
 
 				#header .content .inner {
-					padding: 0.1rem 0;
+					padding: 0.5rem 0;
 				}
 
 				#header nav ul {
@@ -1456,7 +1456,7 @@ input, select, textarea {
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
 					flex-direction: column;
-					min-width: 1rem;
+					min-width: 10rem;
 					max-width: 100%;
 				}
 
@@ -1470,10 +1470,10 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							height: 0rem;
-							line-height: 0rem;
+							height: 3rem;
+							line-height: 3rem;
 							min-width: 0;
-							width: 10%;
+							width: 100%;
 						}
 
 				#header nav.use-middle:after {
