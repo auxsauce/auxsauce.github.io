@@ -1457,7 +1457,7 @@ input, select, textarea {
 					-ms-flex-direction: column;
 					flex-direction: column;
 					min-width: 1rem;
-					max-width: 10%;
+					max-width: 100%;
 				}
 
 					#header nav ul li {
