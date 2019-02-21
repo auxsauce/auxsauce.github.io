@@ -1471,7 +1471,7 @@ input, select, textarea {
 
 						#header nav ul li a {
 							height: 3rem;
-							line-height: 3rem;
+							line-height: 1rem;
 							min-width: 0;
 							width: 100%;
 						}
