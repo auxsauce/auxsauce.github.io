@@ -9,7 +9,8 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
-		$header = $('#header'),
+        $header = $('#header'),
+        $button = $('#playButton.medium'),
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
@@ -306,10 +307,33 @@
             });
 
         // Events.
-            //$("button").click(function(){
-            //    $(this).hide(1000);
-            //    alert("The paragraph is now hidden");
+            
+        // Deactivate current button1.
+            //$button.on('click', function() {
+            //    var $currentButton = $button.filter('.playing');
+
+            //    $currentButton.removeClass('playing');
+
             //});
+            //end1
+
+
+            // Deactivate current button2.
+            $button.on('click', function(){
+                if(!$(this).parents().hasClass('.playing')){
+                    $('#button').removeClass('.playing');    
+                }
+                $(this).addClass('.playing');
+                //$(this).parent().addClass('playing');
+            });
+            //end2
+
+
+
+
+
+
+
 			$body.on('click', function(event) {
 
 				// Article visible? Hide.
