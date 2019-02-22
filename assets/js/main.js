@@ -10,9 +10,8 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
         $header = $('#header'),
-        $button = $('#playButton'),
 		$footer = $('#footer'),
-		$main = $('#main'),
+        $main = $('#main'),
 		$main_articles = $main.children('article');
 
 	// Breakpoints.
@@ -308,26 +307,6 @@
 
         // Events.
             
-        // Deactivate current button1.
-            //$button.on('click', function() {
-            //    var $currentButton = $button.filter('.playing');
-
-            //    $currentButton.removeClass('playing');
-
-            //});
-            //end1
-
-
-            // Deactivate current button2.
-            $button.on('click', function(){
-                if(!$(this).hasClass('playing')){
-                    $button.removeClass('playing');    
-                }
-                //$(this).addClass('.playing');
-                //$(this).parent().addClass('playing');
-            });
-            //end2
-
 
 
 
