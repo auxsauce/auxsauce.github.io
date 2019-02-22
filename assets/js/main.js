@@ -10,7 +10,7 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
         $header = $('#header'),
-        $button = $('#playButton.medium'),
+        $button = $('#playButton'),
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
@@ -320,10 +320,10 @@
 
             // Deactivate current button2.
             $button.on('click', function(){
-                if(!$(this).parents().hasClass('.playing')){
-                    $('#button').removeClass('.playing');    
+                if(!$(this).hasClass('playing')){
+                    $button.removeClass('playing');    
                 }
-                $(this).addClass('.playing');
+                //$(this).addClass('.playing');
                 //$(this).parent().addClass('playing');
             });
             //end2
