@@ -303,9 +303,13 @@
 						event.stopPropagation();
 					});
 
-			});
+            });
 
-		// Events.
+        // Events.
+            //$("button").click(function(){
+            //    $(this).hide(1000);
+            //    alert("The paragraph is now hidden");
+            //});
 			$body.on('click', function(event) {
 
 				// Article visible? Hide.
