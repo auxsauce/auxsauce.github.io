@@ -976,7 +976,14 @@ input, select, textarea {
 
 			table.alt tfoot {
 				border-top: 0;
-			}
+            }
+    @media screen and (max-width: 480px) {
+        .table-wrapper {
+            -webkit-overflow-scrolling: touch;
+            overflow-x: scroll;
+        }
+
+    }
 
 /* Button */
 
