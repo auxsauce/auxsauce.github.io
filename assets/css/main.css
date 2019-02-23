@@ -982,11 +982,11 @@ input, select, textarea {
             -webkit-overflow-scrolling: touch;
             overflow-x: scroll;
             margin: 0 0 .1rem 0;
-		    width: 1000%;
+		    width: 100%;
         }
         table {
             margin: 0 0 1rem 0;
-            width: 1000%;
+            width: 100%;
         }
 
     }
@@ -1222,7 +1222,8 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				padding: 1rem;
+                padding: .1rem;
+                width: 200%;
 			}
 
 		}
