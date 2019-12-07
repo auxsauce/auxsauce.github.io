@@ -1,7 +1,15 @@
-const webpack = require('webpack');
-
+// const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+// module.exports = {
+//   optimization: {
+//     minimizer: [new UglifyJsPlugin()],
+//   },
+// };
 module.exports = {
   entry: `${__dirname}/src/index.js`,
+  optimization: {
+    minimizer: [new UglifyJsPlugin()],
+  },
   output: {
     path: `${__dirname}/build`,
     publicPath: '/build/',
@@ -15,10 +23,16 @@ module.exports = {
   },
 
   plugins: process.argv.indexOf('-p') === -1 ? [] : [
-    new webpack.optimize.UglifyJsPlugin({
-      output: {
-        comments: false,
-      },
-    }),
+    
+    // new UglifyJsPlugin({
+    //   output: {
+    //     comments: false,
+    //   },
+    // }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   output: {
+    //     comments: false,
+    //   },
+    // }),
   ],
 };
